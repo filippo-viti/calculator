@@ -1,0 +1,33 @@
+#container {
+    -fx-background-color: #ffffff;
+}
+
+Label {
+    -fx-background-color: #ffffff;
+}
+
+Button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 0;
+}
+
+Button:pressed {
+    -fx-background-color: #e6e6e6
+}
+
+Button.action {
+    -fx-background-color: #f2f2f2
+}
+
+Button.action:pressed {
+    -fx-background-color: #b3b3b3
+}
+
+Button.equals {
+    -fx-background-color: #ffcc00;
+}
+
+Button.equals:pressed {
+    -fx-background-color: #e6b800
+}
